@@ -1,0 +1,30 @@
+.container-personages {
+  small {
+    float: right;
+  }
+  .card{
+    width: 30%;
+    height: fit-content;
+
+    .delete-comment{
+      cursor: pointer
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container-personages {
+    .card{
+      width: 45%;
+    }
+  }
+}
+
+
+@media screen and (max-width: 425px) {
+  .container-personages {
+    .card{
+      width: 100%;
+    }
+  }
+}
